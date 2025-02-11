@@ -338,6 +338,7 @@ void print22(int n)
              // Min of 4 directions and then we subtract from n
              // because previously we would get a pattern whose border
              // has 0's, but we want with border N's and then decreasing inside.
+             //hello
              cout<<(n- min(min(top,bottom), min(left,right)))<<" ";
          }
          cout<<endl;
